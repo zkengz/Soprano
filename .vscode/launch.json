@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "python": "/home/zengzekeng/anaconda3/envs/alterTPG/bin/python",
+            "args": [
+                "--rank", "4",
+                // "--suit", "3",
+                // "--maxbets_r2", "3",
+                "--algo", "MCCFR-history",
+                "--n_traj", "10",
+                "--lr", "0.02",
+                "--save_path_prefix", "/home/zengzekeng/stoch_optim/results/test_results/2v1Kuhn"
+            ],
+        }
+    ]
+}
